@@ -1,0 +1,22 @@
+# SwiftPM 构建产物
+.build/
+*.o
+*.swiftmodule
+
+# 打包产物
+*.app/
+
+# 凭证（防御性：正常存于 ~/Library/Application Support，不应进仓库）
+credential.json
+*.token
+
+# 本地 Claude Code 配置
+.claude/
+
+# macOS
+.DS_Store
+
+# Xcode（若日后用）
+xcuserdata/
+*.xcuserstate
+DerivedData/
